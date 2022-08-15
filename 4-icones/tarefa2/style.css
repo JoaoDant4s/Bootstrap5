@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+.col-12 {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-12 i {
+    margin-right: 20px;
+}
+.col > span {
+    font-size: 25px;
+}
+.bi {
+    font-size: 100px;
+}
+.bi-android {
+    color: green;
+}
+.bi-arrow-right-circle-fill {
+    color: blue;
+}
+.linha {
+    border: 2px solid darkblue;
+}

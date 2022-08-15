@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+header {
+    margin-top: 20px;
+    padding: 0;
+    width: 1900px;
+}
+.container-fluid {
+    padding: 0;
+}
+.logo-box {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 40px;
+}
+.p-header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+#logo {
+    margin-left: 9px;
+}
+.titulo-art {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    color: lightgray;  
+}
+.nav-bar {
+    text-align: center;
+    padding: 3px;
+}
+.muro-davi {
+    margin-top: 17px;
+    background-image: url(img/g_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 1300px;
+}
+.muro-davi .row {
+    height: 100%;
+}
+.col-4 {
+    height: 170px;
+    width: 360px;
+    background-color: white;
+    padding: 23px;
+    margin: 30px;
+    margin-bottom: 28px;
+}
+.col-4 p{
+    margin-bottom: 25px;
+}
+.btn-detalhes {
+    background-color: #25282E;
+    color: white;
+    text-align: center;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.art-emp {
+    text-align: center;
+    padding: 30px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+.destaque {
+    height: 1304px;
+    width: 1300px;
+    padding: 0;
+}
+.row-mural {
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.espacamento {
+    height: 100%;
+    width: 50px;
+}
+.arthur, .paulista, .metro, .paulo, .centro{
+    height: 250px;
+    width: 625px;
+}
+.arthur {
+    border: none;
+    background-image: url(img/g_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.paulista {
+    border: none;
+    background-image: url(img/g_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.metro {
+    border: none;
+    background-image: url(img/g_4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.paulo {
+    border: none;
+    background-image: url(img/g_5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.centro {
+    border: none;
+    background-image: url(img/g_6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.row-details {
+    margin: 0;
+    height: 190px;
+    width: 100%;
+}
+.col-detalhe {
+    padding: 0;
+    width: 625px;
+}
+.descricao {
+    margin-top: 22px;
+}
+.descricao p {
+    padding-bottom: 5px;
+}
+.hr-rodape {
+    width: 1300px;
+    text-align: center;
+}
+footer p {
+    color: rgb(97, 96, 96);
+    text-align: center;
+}
+.social-media {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+footer .container {
+    margin-top: 40px;
+    padding-left: 35px;
+    padding-right: 0;
+    margin-bottom: 40px;
+}
+.bi {
+    font-size: 1.2em;
+    color: rgb(97, 96, 96);
+}
+.m-acima {
+    margin: 50px;
+}
