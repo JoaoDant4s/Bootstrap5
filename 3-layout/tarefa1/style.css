@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+.container {
+    height: 50px;
+}
+.row {
+    height: 100px;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+.col-9, .col-10, .col-11, .col-12 {
+    border: 2px dotted chocolate;
+    height: 100%;
+}
+#par {
+    background-color: coral;
+}
+#impar {
+    background-color: teal;
+}

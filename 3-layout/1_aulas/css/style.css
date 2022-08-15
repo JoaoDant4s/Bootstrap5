@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* XS */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* SM >= 576px */
+@media (min-width: 576px) {
+    h1 {
+        color: red;
+    }
+}
+/* MD >= 768 */
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+/* LG >= 992px */
+@media (min-width: 992px) {
+    h1 {
+        color: yellow;
+    }
+}
+@media (min-width: 1200px) {
+    h1 {
+        color: chocolate;
+    }
+}
+.btn-primary {
+    background-color: darkblue;
+}
+.container-fluid {
+    background-color: darkcyan;
+}
+/* container com breakpoint */
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px dotted darkblue;
+}
+.container-md {
+    margin-bottom: 30px;
+    border: 2px dotted blueviolet;
+}
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px dotted chocolate;
+}
+/* GRID */
+
+.container {
+    border: 5px dashed pink;
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: lightgray;
+}
+.row {
+    border: 5px solid purple;
+    margin: 0;
+    padding: 10px;
+    height: 100px;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+.col-9, .col-10, .col-11, .col-12 {
+    border: 2px dotted chocolate;
+    height: 100%;
+    /*margin: 0;*/
+}
+#limitado {
+    max-width: 500px;
+}
+p {
+    text-align: center;
+}
+#vertical {
+    height: 250px;
+    border-color: orangered;
+}
+#vertical .row {
+    height: 100%;
+}
+#vertical .col-6, 
+#vertical .col-3,
+#vertical .col-4 {
+    height: 50px;
+}
+#offset .col-md-3 {
+    height: 50px;
+    border: 2px dotted chocolate;
+}
+#gutter .row {
+    height: 200px;
+}
+#gutter .col-6 {
+    height: 50px;
+}
+.row p {
+    border: 2px solid darkblue;
+}
