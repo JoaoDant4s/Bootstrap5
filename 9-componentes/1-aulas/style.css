@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1 {
+    margin: 30px;
+}
+
+.card {
+    width: 200px;
+}
+#card-banner {
+    width: 800px;
+}

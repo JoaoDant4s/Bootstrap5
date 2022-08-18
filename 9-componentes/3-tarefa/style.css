@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000913;
+}
+.carousel-inner {
+    border-radius: 40px;
+}
+.card {
+    height: 700px;
+    width: 80%;
+    background-color: #2B3241;
+}
+.card p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h4, h6, p{
+    color: white;
+}
+
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#subtitulo {
+    margin-bottom: 100px;
+}
+#container-cards {
+    margin-top: 50px;
+}
