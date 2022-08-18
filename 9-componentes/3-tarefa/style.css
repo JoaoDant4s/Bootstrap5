@@ -10,6 +10,7 @@ body {
     height: 700px;
     width: 80%;
     background-color: #2B3241;
+    box-shadow: .5px 8px 15px rgba(255, 255, 255, 0.205);
 }
 .card p{
     margin-top: 20px;
