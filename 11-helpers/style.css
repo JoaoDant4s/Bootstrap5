@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    padding-bottom: 1000px;
+}
+.box {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+}
+.box.float-end {
+    background-color: blue;
+    width: 50px;
+}
+.box-sticky, .box-fixed {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.box-fixed {
+    background-color: blueviolet;
+}
